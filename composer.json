@@ -1,17 +1,17 @@
 {
-  "name": "mnvx/lowrapper",
+  "name": "iceman2894/lowrapper",
   "license": "MIT",
   "type": "library",
-  "description": "PHP wrapper over LibreOffice converter",
+  "description": "PHP wrapper over LibreOffice converter Fork",
   "keywords": ["libreoffice", "converter", "word", "pdf", "excel", "docx", "xls", "xlsx"],
-  "homepage": "https://github.com/mnvx/lowrapper",
+  "homepage": "https://github.com/iceman2894/lowrapper",
   "autoload": {
     "psr-4": {
       "Mnvx\\Lowrapper\\": "src/"
     }
   },
   "require": {
-    "php": "^7.2",
+    "php": "^7.2||>=8.0",
     "symfony/process": "^3.1|^4.1|^5.0",
     "psr/log": "^1.0"
   },
